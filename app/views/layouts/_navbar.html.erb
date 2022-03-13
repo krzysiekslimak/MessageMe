@@ -1,0 +1,23 @@
+
+<div class="ui inverted small menu">
+  <div class="ui container">
+    <%= link_to "Chatroom", root_path, class: "active item", method: :get%>
+    
+    <a class="item">
+      Messages
+    </a>
+    <div class="right menu">
+      <div class="ui dropdown item">
+        User <i class="dropdown icon"></i>
+        <div class="menu">
+          <%= link_to "Login", login_path, class: "item", method: :get %>
+          <a class="item">Info</a>
+          <a class="item">Logut</a>
+        </div>
+      </div>
+      <div class="item">
+      <%= button_to "Login", login_path, class: "ui primary button", method: :get %>
+      </div>
+    </div>
+ </div>
+</div>

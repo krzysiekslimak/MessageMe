@@ -1,3 +1,36 @@
-<h1>MessageMe</h1>
-<p>This will be our home page for chat app</p>
+<div class="ui center aligned container">
+    <h1>
+        <i class="comments icon" id="mainIcon"></i>
+    </h1>
+    <h2>MessageMe</h2>
+</div>
+
+<div class="ui two column divided padded grid" id="mainContainer">
+    <div class="stretched row">
+        <div class="ten wide column">
+            <div class="ui segment" id="messageContainer">
+                <div class="ui container" id="messageArea">
+                    Lorem ipsum
+                </div>
+                <div class="ui form">
+                    <div class="field padded">
+                        <label>Message:</label>
+                        <input type="text"></div>
+                    </div>
+                    <div class="ui container padded" id="sendBtn">
+                        <button class="ui button">Send</button>
+                    </div>
+                </div>
+            </div>
+            <div class="six wide column">
+                <div class="ui segment">
+                    Users online:
+                    <div class="ui container" id="userArea">
+                        <%= render "chatroom/userArea"%>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 

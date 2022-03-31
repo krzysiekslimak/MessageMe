@@ -1,24 +1,6 @@
-# README
+# MessageMe - app chat. 
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+App build wiht Ruby on Rails with real time chat.
+There is few thing to be done on the backend side, but Front End is ready.
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+<img src='./public/MessageMeScreen.png' alt='screnshot' width='600px'/>
